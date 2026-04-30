@@ -27,7 +27,7 @@ nav ul li a:hover {
     padding: 5px;
 }
 table {
-    width: 100;
+    width: 100px;
     border-collapse: collapse;
     margin-top: 20px;
 }
@@ -66,7 +66,7 @@ th {
 }
 .price {
     font-size: 18px;
-    color: balck;
+    color: black;
     font-weight: bold;
 }
 .old-price {
