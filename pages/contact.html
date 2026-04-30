@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TechGizmoHub | Contact Us</title>
-        <link rel="stylesheet" href="/css/style.css">
-        <script src="/js/script.js"></script>
-    </head>
-    <body onload="showDateTime()">
-        <p id="datetime"></p>
-        <div class="wrapper">
+<head>
+    <title>TechGizmoHub | Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+
+<body onload="showDateTime()">
+    <p id="datetime"></p>
+
+    <div class="wrapper">
         <header>
             <h1>Contact Us</h1>
         </header>
+
         <nav>
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/about.html">About</a></li>
-                <li><a href="/pages/mobiles.html">Mobiles</a></li>
-                <li><a href="/pages/laptops.html">Laptops</a></li>
-                <li><a href="/pages/smarthome.html">Smart Home</a></li>
-                <li><a href="/pages/accessories.html">Accessories</a></li>
-                <li><a href="/pages/offers.html">Offers</a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mobiles.html">Mobiles</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="smarthome.html">Smart Home</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
         <div class="main">
-        <form onsubmit="return validateForm()">
-            Name: <input type="text" id="name"><br><br>
-            Email: <input type="email" id="email"><br><br>
-            Message:<br>
-            <textarea id="message"></textarea><br><br>
-            <input type="submit" value="send">
+            <form onsubmit="return validateForm()">
+                Name: <input type="text" id="name"><br><br>
+                Email: <input type="email" id="email"><br><br>
+                Message:<br>
+                <textarea id="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
         </div>
-        </form>
+
         <div class="footer">
-            <p>Visit our forum:
+            <p>
+                Visit our forum:
                 <a href="https://www.reddit.com/r/technology/" target="_blank">
                     Technology Forum
                 </a>
             </p>
+
             <p>
                 External links:
                 <a href="https://www.apple.com" target="_blank">Apple</a> |
                 <a href="https://www.samsung.com" target="_blank">Samsung</a>
             </p>
         </div>
-        </div>
-    </body>
+    </div>
+</body>
 </html>
