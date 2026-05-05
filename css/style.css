@@ -53,17 +53,34 @@ th {
 }
 .Offers {
     display: flex;
-    margin-top: 30px;
     gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.card {
-    background: grey;
+.card1 {
+    background: rgb(185, 174, 174);
     width: 100%;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgb(0,0,0,0.1);
     margin-right: 10px;
 }
+.card2 {
+    background: rgb(238, 230, 230);
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+    margin-right: 10px;
+} 
+.card3 {
+    background: rgb(185, 174, 174);
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+    margin-right: 10px;
+} 
 .price {
     font-size: 18px;
     color: black;
